@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "locale": "en",
+    "label": "English",
+    "pdf": "/hernan-vargas-cv-en.pdf",
+    "title": "Hernán Vargas — Fullstack Engineer",
+    "description": "Fullstack engineer with an M.Sc. in Computer Engineering, based in Chile. Close to ten years of fullstack and research software development: TypeScript, React, Next.js, Java, Docker and Kubernetes."
+  },
+  "ui": {
+    "downloadPdf": "Download PDF",
+    "otherLanguage": "Español",
+    "present": "Now",
+    "theme": {
+      "label": "Theme",
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "sections": {
+      "about": "About",
+      "experience": "Experience",
+      "projects": "Selected projects",
+      "education": "Education",
+      "skills": "Technologies",
+      "publications": "Publications",
+      "awards": "Honors & awards",
+      "languages": "Languages"
+    }
+  },
+  "personal": {
+    "name": "Hernán Vargas",
+    "title": "Fullstack Engineer",
+    "subtitle": "M.Sc. in Computer Engineering",
+    "location": "Chile",
+    "email": "hern.var@gmail.com",
+    "website": "https://hvarg.github.io",
+    "github": "https://github.com/hvarg",
+    "linkedin": ""
+  },
+  "summary": "Fullstack engineer with an M.Sc. and close to ten years building research software and web systems end to end. I spent nearly six years at the Information Sciences Institute of the University of Southern California, as lead frontend developer on MINT and lead developer on both ends of DISK — platforms that let scientists compose models and automate their data analysis. I now design and build the data management system for the Centro de Estudios Mineralógicos, from the database schema through to the web portal and the desktop application that feeds it.",
+  "experience": [
+    {
+      "company": "Centro de Estudios Mineralógicos — GeoAtacama",
+      "role": "Consultant — Software Developer",
+      "location": "Santiago, Chile — Remote",
+      "start": "Oct 2025",
+      "achievements": [
+        "Designed and built CEM's data management system: business logic, user administration, internal messaging and interactive visualizations.",
+        "Designed the database schema and the API.",
+        "Developed the desktop application for file ingestion and server administration.",
+        "Developed the web portal for clients and internal staff.",
+        "Deployed on on-premise Windows servers."
+      ],
+      "technologies": [
+        "JavaFX",
+        "Next.js",
+        "Supabase",
+        "Windows Server"
+      ]
+    },
+    {
+      "company": "Information Sciences Institute — University of Southern California",
+      "role": "Contractor — Research Assistant",
+      "location": "Los Angeles, CA, USA — Remote",
+      "start": "Feb 2020",
+      "end": "Dec 2025",
+      "achievements": [
+        "Built and maintained the institute's websites, in React, Next.js and other stacks.",
+        "Lead frontend developer on MINT.",
+        "Lead frontend and backend developer on DISK.",
+        "Administered internal servers on AWS and Linux.",
+        "Developed applications with Docker, continuous integration with GitHub Actions and deployment on Kubernetes.",
+        "Contributed to the writing of scientific papers."
+      ],
+      "technologies": [
+        "Java",
+        "Spring",
+        "TypeScript",
+        "React",
+        "Docker",
+        "Kubernetes",
+        "nginx",
+        "AWS",
+        "Linux"
+      ]
+    },
+    {
+      "company": "Texas Advanced Computing Center — The University of Texas at Austin",
+      "role": "Contractor",
+      "location": "Austin, TX, USA — Remote",
+      "start": "Aug 2021",
+      "end": "Nov 2025",
+      "achievements": [
+        "Maintained and updated web pages.",
+        "Integrated the MINT systems into the TACC architecture."
+      ],
+      "technologies": [
+        "Java",
+        "Next.js",
+        "TypeScript"
+      ]
+    },
+    {
+      "company": "Departamento de Extranjería y Migración — Ministerio del Interior",
+      "role": "Software Engineer",
+      "location": "Santiago, Chile",
+      "start": "Feb 2019",
+      "end": "Feb 2020",
+      "achievements": [
+        "Built REST services enabling interoperability between internal systems.",
+        "Administered internal servers on AWS and Linux.",
+        "Developed web applications with Docker, Node.js, Express.js and nginx.",
+        "Maintained legacy Ruby on Rails and Laravel (PHP) applications."
+      ],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "Docker",
+        "nginx",
+        "AWS",
+        "Linux"
+      ]
+    },
+    {
+      "company": "MB 2.0 Consultores SPA",
+      "role": "Technology Consultant",
+      "location": "Santiago, Chile",
+      "start": "Nov 2017",
+      "end": "Oct 2018",
+      "achievements": [
+        "Led the migration of a major local financial platform to microservices.",
+        "Modelled development and maintenance processes with BPMN."
+      ],
+      "technologies": [
+        "Microservices",
+        "BPMN"
+      ]
+    },
+    {
+      "company": "Millennium Nucleus Center for Semantic Web Research",
+      "role": "Research Assistant & Developer",
+      "location": "Santiago, Chile",
+      "start": "Sep 2016",
+      "end": "Jan 2018",
+      "summary": "Project NC120004, funded by the Millennium Science Initiative.",
+      "achievements": [
+        "Analysed query logs and searched for patterns in SPARQL queries.",
+        "Migrated relational databases to RDF using R2RML.",
+        "Built web applications on the MEAN stack."
+      ],
+      "technologies": [
+        "SPARQL",
+        "RDF",
+        "R2RML",
+        "MongoDB",
+        "Express.js",
+        "Angular.js",
+        "Node.js"
+      ]
+    },
+    {
+      "company": "Universidad Técnica Federico Santa María",
+      "role": "Consultant",
+      "location": "Valparaíso, Chile",
+      "start": "Nov 2016",
+      "end": "Jun 2017",
+      "achievements": [
+        "Optimised software development processes for the National Customs Service.",
+        "Modelled as-is and to-be business processes in BPMN 2.0.",
+        "Drafted a roadmap for the modernisation of their computer systems."
+      ],
+      "technologies": [
+        "BPMN 2.0"
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "institution": "Universidad Técnica Federico Santa María",
+      "degree": "M.Sc. in Computer Engineering",
+      "location": "Valparaíso, Chile",
+      "start": "2017",
+      "end": "2019",
+      "detail": "Thesis: an interface to explore RDF data and build SPARQL queries."
+    },
+    {
+      "institution": "Universidad Técnica Federico Santa María",
+      "degree": "Computer Science Engineering",
+      "location": "Valparaíso, Chile",
+      "start": "2010",
+      "end": "2016",
+      "detail": "Thesis: centrality analysis of an RDF database."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "C",
+        "Java",
+        "SQL",
+        "GraphQL",
+        "SPARQL"
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "React",
+        "Next.js",
+        "Spring",
+        "D3.js",
+        "JavaFX"
+      ]
+    },
+    {
+      "category": "Infrastructure",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "nginx",
+        "Linux",
+        "AWS",
+        "Git"
+      ]
+    },
+    {
+      "category": "Data",
+      "skills": [
+        "PostgreSQL",
+        "Supabase",
+        "MongoDB",
+        "RDF"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "NeuroDISK: An AI Approach to Automate Continuous Inquiry-Driven Discoveries in Neuroimaging Genetics",
+      "authors": "Daniel Garijo, Qifan Yang, Hernán Vargas, Shruti P. Gadewar, Kevin Low, Varun Ratnakar, Maximiliano Osorio, Alyssa H. Zhu, Agnes McMahon, Yolanda Gil, Neda Jahanshad",
+      "venue": "",
+      "year": "2025"
+    },
+    {
+      "title": "An AI Approach to Integrating Climate, Hydrology, and Agriculture Models",
+      "authors": "Belete Berhanu, Ethiopia Bisrat, Yolanda Gil, Deborah Khider, Maximiliano Osorio, Varun Ratnakar, Hernán Vargas",
+      "venue": "First International Workshop on Social Impact of AI for Africa (SIAIA)",
+      "year": "2024"
+    },
+    {
+      "title": "A framework for the broad dissemination of hydrological models for non-expert users",
+      "authors": "T. Schaffhauser, D. Garijo, M. Osorio, D. Bittner, S. Pierce, H. Vargas, et al., Y. Gil",
+      "venue": "Environmental Modelling & Software, 164, 105695",
+      "year": "2023"
+    },
+    {
+      "title": "PaleoCube: Enabling cloud-based paleoclimatology",
+      "authors": "Deborah Khider, Varun Ratnakar, Julien Emile-Geay, Feng Zhu, Alexander James, Jordan Landers, Yolanda Gil, Maximiliano Osorio, Hernán Vargas, Nicholas McKay",
+      "venue": "AGU Fall Meeting 2023, San Francisco, CA",
+      "year": "2023"
+    },
+    {
+      "title": "Towards Capturing Scientific Reasoning to Automate Data Analysis",
+      "authors": "Yolanda Gil, Deborah Khider, Maximiliano Osorio, Varun Ratnakar, Hernán Vargas, Daniel Garijo",
+      "venue": "44th Annual Conference of the Cognitive Science Society",
+      "year": "2022"
+    },
+    {
+      "title": "Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making",
+      "authors": "Yolanda Gil, Daniel Garijo, Deborah Khider, Craig A. Knoblock, Varun Ratnakar, Maximiliano Osorio, Hernán Vargas, Minh Pham, Jay Pujara, Basel Shbita",
+      "venue": "ACM Transactions on Interactive Intelligent Systems",
+      "year": "2021"
+    },
+    {
+      "title": "RDF Explorer: A Visual Query Builder for Semantic Web Knowledge Graphs",
+      "authors": "Hernán Vargas, Carlos Buil-Aranda, Aidan Hogan, Claudia López",
+      "venue": "18th International Semantic Web Conference, Auckland, New Zealand",
+      "year": "2019"
+    },
+    {
+      "title": "Reproducibility of Computational Environments for Scientific Experiments using Container-based Virtualization",
+      "authors": "Maximiliano Osorio, Carlos Buil-Aranda, Hernán Vargas",
+      "venue": "Second Workshop on Enabling Open Semantic Science (SemSci@ISWC 2018), Monterey, USA",
+      "year": "2018"
+    },
+    {
+      "title": "Linked data search and exploration interfaces",
+      "authors": "Hernán Vargas, Carlos Buil-Aranda",
+      "venue": "7th Latin American Conference on Networked and Electronic Media (LACNEM 2017), Valparaíso, Chile",
+      "year": "2017"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Student Research Paper",
+      "issuer": "18th International Semantic Web Conference",
+      "year": "2019",
+      "detail": "€500 prize for the RDF Explorer paper."
+    },
+    {
+      "title": "Master Studies Scholarship",
+      "issuer": "Dirección General de Investigación y Postgrado, UTFSM",
+      "year": "2017, 2018",
+      "detail": "Financial support and fee exemption for academic performance."
+    },
+    {
+      "title": "Initiation in Scientific Research Scholarship",
+      "issuer": "Dirección General de Investigación y Postgrado, UTFSM",
+      "year": "2017",
+      "detail": "Awarded to master's students pursuing academic research."
+    }
+  ],
+  "languages": []
+}

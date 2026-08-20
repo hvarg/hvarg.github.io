@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hernán Vargas — Fullstack Engineer</title>
+    <meta name="robots" content="noindex, nofollow" />
+    <link rel="alternate" hreflang="en" href="/en/" />
+    <link rel="alternate" hreflang="es" href="/es/" />
+    <link rel="alternate" hreflang="x-default" href="/en/" />
+    <script>
+      // Static hosting has no server-side redirects, so the locale is picked
+      // here: an explicit choice made with the in-page language switcher wins,
+      // otherwise the first browser preference we publish. Default: English.
+      (function () {
+        try {
+          var saved = localStorage.getItem("lang");
+          if (saved === "en" || saved === "es") return location.replace("/" + saved + "/");
+        } catch (e) {}
+
+        var prefs = navigator.languages || [navigator.language || "en"];
+        for (var i = 0; i < prefs.length; i++) {
+          var tag = String(prefs[i]).toLowerCase();
+          if (tag.indexOf("es") === 0) return location.replace("/es/");
+          if (tag.indexOf("en") === 0) break;
+        }
+        location.replace("/en/");
+      })();
+    </script>
+    <noscript><meta http-equiv="refresh" content="0; url=/en/" /></noscript>
+  </head>
+  <body>
+    <p><a href="/en/">English</a> · <a href="/es/">Español</a></p>
+  </body>
+</html>

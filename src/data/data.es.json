@@ -1,0 +1,320 @@
+{
+  "meta": {
+    "locale": "es",
+    "label": "Español",
+    "pdf": "/hernan-vargas-cv-es.pdf",
+    "title": "Hernán Vargas — Ingeniero Civil Informático",
+    "description": "Ingeniero Civil Informático y magíster en ciencias, en Chile. Cerca de diez años de desarrollo fullstack y software de investigación: TypeScript, React, Next.js, Java, Docker y Kubernetes."
+  },
+  "ui": {
+    "downloadPdf": "Descargar PDF",
+    "otherLanguage": "English",
+    "present": "Actualidad",
+    "theme": {
+      "label": "Tema",
+      "system": "Sistema",
+      "light": "Claro",
+      "dark": "Oscuro"
+    },
+    "sections": {
+      "about": "Perfil",
+      "experience": "Experiencia",
+      "projects": "Proyectos destacados",
+      "education": "Educación",
+      "skills": "Tecnologías",
+      "publications": "Publicaciones",
+      "awards": "Distinciones",
+      "languages": "Idiomas"
+    }
+  },
+  "personal": {
+    "name": "Hernán Vargas",
+    "title": "Ingeniero Civil Informático",
+    "subtitle": "Magíster en Ciencias",
+    "location": "Chile",
+    "email": "hern.var@gmail.com",
+    "website": "https://hvarg.github.io",
+    "github": "https://github.com/hvarg",
+    "linkedin": ""
+  },
+  "summary": "Ingeniero Civil Informático y magíster en ciencias, con cerca de diez años construyendo software de investigación y sistemas web. Pasé casi seis años en el Information Sciences Institute de la University of Southern California, como desarrollador principal del frontend de MINT y del frontend y el backend de DISK: plataformas que permiten a los científicos componer modelos y automatizar sus análisis de datos. Hoy diseño e implemento el sistema de administración de datos del Centro de Estudios Mineralógicos, desde el esquema de la base de datos hasta el portal web y la aplicación de escritorio que lo alimentan.",
+  "experience": [
+    {
+      "company": "Centro de Estudios Mineralógicos — GeoAtacama",
+      "role": "Consultor — Desarrollador de software",
+      "location": "Santiago, Chile — Remoto",
+      "start": "Oct 2025",
+      "achievements": [
+        "Diseño e implementación del sistema de administración de datos del CEM: lógica de negocio, administración de usuarios, sistema de mensajería y visualizaciones interactivas.",
+        "Diseño del esquema de la base de datos y de la API.",
+        "Desarrollo de la aplicación de escritorio para la ingesta de archivos y la administración del servidor.",
+        "Desarrollo del portal web para clientes y personal interno.",
+        "Despliegue en servidores Windows locales."
+      ],
+      "technologies": [
+        "JavaFX",
+        "Next.js",
+        "Supabase",
+        "Windows Server"
+      ]
+    },
+    {
+      "company": "Information Sciences Institute — University of Southern California",
+      "role": "Contratista — Asistente de investigación",
+      "location": "Los Ángeles, CA, EE. UU. — Remoto",
+      "start": "Feb 2020",
+      "end": "Dic 2025",
+      "achievements": [
+        "Creación y mantención de los sitios web del instituto, en React, Next.js y otras tecnologías.",
+        "Desarrollador principal del frontend de MINT.",
+        "Desarrollador principal del frontend y el backend de DISK.",
+        "Administración de servidores internos en AWS y Linux.",
+        "Desarrollo de aplicaciones con Docker, integración continua con GitHub Actions y despliegue en Kubernetes.",
+        "Apoyo en la redacción de artículos científicos."
+      ],
+      "technologies": [
+        "Java",
+        "Spring",
+        "TypeScript",
+        "React",
+        "Docker",
+        "Kubernetes",
+        "nginx",
+        "AWS",
+        "Linux"
+      ]
+    },
+    {
+      "company": "Texas Advanced Computing Center — The University of Texas at Austin",
+      "role": "Contratista",
+      "location": "Austin, TX, EE. UU. — Remoto",
+      "start": "Ago 2021",
+      "end": "Nov 2025",
+      "achievements": [
+        "Mantención y actualización de páginas web.",
+        "Integración de los sistemas MINT dentro de la arquitectura de TACC."
+      ],
+      "technologies": [
+        "Java",
+        "Next.js",
+        "TypeScript"
+      ]
+    },
+    {
+      "company": "Departamento de Extranjería y Migración — Ministerio del Interior",
+      "role": "Ingeniero de software",
+      "location": "Santiago, Chile",
+      "start": "Feb 2019",
+      "end": "Feb 2020",
+      "achievements": [
+        "Creación de servicios REST para la interoperabilidad entre sistemas internos.",
+        "Administración de servidores internos en AWS y Linux.",
+        "Desarrollo de aplicaciones web con Docker, Node.js, Express.js y nginx.",
+        "Mantención de aplicaciones heredadas en Ruby on Rails y Laravel (PHP)."
+      ],
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "Docker",
+        "nginx",
+        "AWS",
+        "Linux"
+      ]
+    },
+    {
+      "company": "MB 2.0 Consultores SPA",
+      "role": "Consultor tecnológico",
+      "location": "Santiago, Chile",
+      "start": "Nov 2017",
+      "end": "Oct 2018",
+      "achievements": [
+        "Migración a microservicios de un importante software financiero local.",
+        "Modelado de procesos con BPMN para el desarrollo y la mantención de software."
+      ],
+      "technologies": [
+        "Microservicios",
+        "BPMN"
+      ]
+    },
+    {
+      "company": "Núcleo Milenio Centro de Investigación de la Web Semántica",
+      "role": "Asistente de investigación y desarrollador",
+      "location": "Santiago, Chile",
+      "start": "Sep 2016",
+      "end": "Ene 2018",
+      "summary": "Proyecto NC120004, financiado por la Iniciativa Científica Milenio.",
+      "achievements": [
+        "Análisis de logs y búsqueda de patrones en consultas SPARQL.",
+        "Migración de bases de datos relacionales a RDF mediante R2RML.",
+        "Desarrollo web sobre el stack MEAN."
+      ],
+      "technologies": [
+        "SPARQL",
+        "RDF",
+        "R2RML",
+        "MongoDB",
+        "Express.js",
+        "Angular.js",
+        "Node.js"
+      ]
+    },
+    {
+      "company": "Universidad Técnica Federico Santa María",
+      "role": "Consultor",
+      "location": "Valparaíso, Chile",
+      "start": "Nov 2016",
+      "end": "Jun 2017",
+      "achievements": [
+        "Optimización de procesos de desarrollo de software en el Servicio Nacional de Aduanas.",
+        "Modelado de procesos de negocio as-is y to-be en BPMN 2.0.",
+        "Elaboración de una hoja de ruta para la modernización de sus sistemas informáticos."
+      ],
+      "technologies": [
+        "BPMN 2.0"
+      ]
+    }
+  ],
+  "projects": [],
+  "education": [
+    {
+      "institution": "Universidad Técnica Federico Santa María",
+      "degree": "Magíster en Ciencias de la Ingeniería Informática",
+      "location": "Valparaíso, Chile",
+      "start": "2017",
+      "end": "2019",
+      "detail": "Tesis: interfaz para la exploración de datos RDF y la creación de consultas SPARQL."
+    },
+    {
+      "institution": "Universidad Técnica Federico Santa María",
+      "degree": "Ingeniería Civil Informática",
+      "location": "Valparaíso, Chile",
+      "start": "2010",
+      "end": "2016",
+      "detail": "Memoria: análisis de centralidad sobre una base de datos RDF."
+    }
+  ],
+  "skills": [
+    {
+      "category": "Lenguajes",
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "C",
+        "Java",
+        "SQL",
+        "GraphQL",
+        "SPARQL"
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "skills": [
+        "Node.js",
+        "Express.js",
+        "React",
+        "Next.js",
+        "Spring",
+        "D3.js",
+        "JavaFX"
+      ]
+    },
+    {
+      "category": "Infraestructura",
+      "skills": [
+        "Docker",
+        "Kubernetes",
+        "nginx",
+        "Linux",
+        "AWS",
+        "Git"
+      ]
+    },
+    {
+      "category": "Datos",
+      "skills": [
+        "PostgreSQL",
+        "Supabase",
+        "MongoDB",
+        "RDF"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "NeuroDISK: An AI Approach to Automate Continuous Inquiry-Driven Discoveries in Neuroimaging Genetics",
+      "authors": "Daniel Garijo, Qifan Yang, Hernán Vargas, Shruti P. Gadewar, Kevin Low, Varun Ratnakar, Maximiliano Osorio, Alyssa H. Zhu, Agnes McMahon, Yolanda Gil, Neda Jahanshad",
+      "venue": "",
+      "year": "2025"
+    },
+    {
+      "title": "An AI Approach to Integrating Climate, Hydrology, and Agriculture Models",
+      "authors": "Belete Berhanu, Ethiopia Bisrat, Yolanda Gil, Deborah Khider, Maximiliano Osorio, Varun Ratnakar, Hernán Vargas",
+      "venue": "First International Workshop on Social Impact of AI for Africa (SIAIA)",
+      "year": "2024"
+    },
+    {
+      "title": "A framework for the broad dissemination of hydrological models for non-expert users",
+      "authors": "T. Schaffhauser, D. Garijo, M. Osorio, D. Bittner, S. Pierce, H. Vargas, et al., Y. Gil",
+      "venue": "Environmental Modelling & Software, 164, 105695",
+      "year": "2023"
+    },
+    {
+      "title": "PaleoCube: Enabling cloud-based paleoclimatology",
+      "authors": "Deborah Khider, Varun Ratnakar, Julien Emile-Geay, Feng Zhu, Alexander James, Jordan Landers, Yolanda Gil, Maximiliano Osorio, Hernán Vargas, Nicholas McKay",
+      "venue": "AGU Fall Meeting 2023, San Francisco, CA",
+      "year": "2023"
+    },
+    {
+      "title": "Towards Capturing Scientific Reasoning to Automate Data Analysis",
+      "authors": "Yolanda Gil, Deborah Khider, Maximiliano Osorio, Varun Ratnakar, Hernán Vargas, Daniel Garijo",
+      "venue": "44th Annual Conference of the Cognitive Science Society",
+      "year": "2022"
+    },
+    {
+      "title": "Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making",
+      "authors": "Yolanda Gil, Daniel Garijo, Deborah Khider, Craig A. Knoblock, Varun Ratnakar, Maximiliano Osorio, Hernán Vargas, Minh Pham, Jay Pujara, Basel Shbita",
+      "venue": "ACM Transactions on Interactive Intelligent Systems",
+      "year": "2021"
+    },
+    {
+      "title": "RDF Explorer: A Visual Query Builder for Semantic Web Knowledge Graphs",
+      "authors": "Hernán Vargas, Carlos Buil-Aranda, Aidan Hogan, Claudia López",
+      "venue": "18th International Semantic Web Conference, Auckland, Nueva Zelanda",
+      "year": "2019"
+    },
+    {
+      "title": "Reproducibility of Computational Environments for Scientific Experiments using Container-based Virtualization",
+      "authors": "Maximiliano Osorio, Carlos Buil-Aranda, Hernán Vargas",
+      "venue": "Second Workshop on Enabling Open Semantic Science (SemSci@ISWC 2018), Monterey, EE. UU.",
+      "year": "2018"
+    },
+    {
+      "title": "Linked data search and exploration interfaces",
+      "authors": "Hernán Vargas, Carlos Buil-Aranda",
+      "venue": "7th Latin American Conference on Networked and Electronic Media (LACNEM 2017), Valparaíso, Chile",
+      "year": "2017"
+    }
+  ],
+  "awards": [
+    {
+      "title": "Best Student Research Paper",
+      "issuer": "18th International Semantic Web Conference",
+      "year": "2019",
+      "detail": "Premio de 500 € por el artículo de RDF Explorer."
+    },
+    {
+      "title": "Beca de Estudios de Magíster",
+      "issuer": "Dirección General de Investigación y Postgrado, UTFSM",
+      "year": "2017, 2018",
+      "detail": "Ayuda económica y exención de arancel por buen rendimiento académico."
+    },
+    {
+      "title": "Beca de Iniciación en Investigación Científica",
+      "issuer": "Dirección General de Investigación y Postgrado, UTFSM",
+      "year": "2017",
+      "detail": "Otorgada a estudiantes de magíster con interés en investigación académica."
+    }
+  ],
+  "languages": []
+}
